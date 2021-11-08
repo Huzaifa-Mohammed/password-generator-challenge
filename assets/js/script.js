@@ -67,6 +67,7 @@ function generatePassword() {
         EmptyArr = myNumber.concat(mySymbol, myLower);
     } else if (confrimUpper && confirmLower && confirmSymbol) {
         EmptyArr = myLower.concat(mySymbol, myUpper);
+        console.log(EmptyArr);
     }
 
 
@@ -98,6 +99,7 @@ function generatePassword() {
         EmptyArr = myLower;
     } else if (confirmNumbers) {
         EmptyArr = myNumber;
+        console.log(EmptyArr);
     }
 
 
